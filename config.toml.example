@@ -1,0 +1,11 @@
+[api]
+proxyapi_key = "sk-..."
+base_url = "https://api.proxyapi.ru/openrouter/v1"
+
+[models]
+search = "perplexity/sonar"
+ask = "deepseek/deepseek-v3.2"
+chat = "claude-opus-4-5-20251101"
+
+[storage]
+chats_dir = "~/.local/share/ai/chats"
